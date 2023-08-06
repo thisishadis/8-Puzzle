@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 300vh;
+    height: 100vh;
+}
+
+.game{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background: darkorange;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding:5px 10px;
+}
+
+.grid{
+    /* --size: 3; */
+    display: grid;
+    /* grid-template-columns: repeat(var(--size),1fr) ;
+    grid-template-rows: repeat(var(--size),1fr) ; */
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    border: 1px solid darkorange;
+    gap: 2px;
+}
+.grid button{
+    background-color: burlywood;
+    color: black;
+    font-size: 24px;
+    color: darkblue;
+    font-weight: bold;
+    border: 1px solid darkorange;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+.grid button:hover{
+    background-color: rgb(205, 155, 89);
+    }
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  10px 3px;
+    color: darkblue ;
+    font-weight: bold;
+}
+.footer button{
+    padding: 5px 15px;
+    background-color: darkblue;
+    color: darkorange;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.footer button:hover{
+    background-color:rgb(3, 3, 43) ;
+    color: rgb(255, 157, 0);
+}
+.footer span{
+    font-size:16px;
+}
+
+
+.watch{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:15px 3px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.container{
+    width: 200vh;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.size{
+    padding-left: 15px;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    background-color:darkblue ;
+    color: darkorange;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+
+}
+
